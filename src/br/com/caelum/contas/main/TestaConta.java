@@ -59,7 +59,21 @@ public class TestaConta {
 		System.out.println(conta3.getTitular());
 		System.out.println(conta3.getContabilizadorConta());
 		
+		Conta conta4 = new Conta();
+		Data data4 = new Data();
 		
+		conta4.setTitular("Rodrigo");
+		conta4.setAgencia("1234");
+		conta4.setNumero(56789);
+		conta4.deposita(1000.00);
+		
+		conta4.setDataAbertura(data4);
+		
+		data4.setDia(13);
+		data4.setMes(11);
+		data4.setAno(2018);
+		
+		System.out.println(conta4.recuperaDadosParaImpressao());
 
 		
 	}
