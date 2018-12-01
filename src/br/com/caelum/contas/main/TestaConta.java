@@ -62,10 +62,10 @@ public class TestaConta {
 		Conta conta4 = new Conta();
 		Data data4 = new Data();
 		
-		conta4.setTitular("Rodrigo");
+		conta4.setTitular("Marcelo");
 		conta4.setAgencia("1234");
 		conta4.setNumero(56789);
-		conta4.deposita(1000.00);
+		conta4.deposita(1000.50);
 		
 		conta4.setDataAbertura(data4);
 		
